@@ -334,7 +334,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CIRUS\\.nuget\\packages\\": {},
+    "C:\\Users\\Mohammad\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
@@ -343,14 +343,14 @@
       "projectUniqueName": "D:\\Github\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
       "projectName": "RedisDB",
       "projectPath": "D:\\Github\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
-      "packagesPath": "C:\\Users\\CIRUS\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
       "outputPath": "D:\\Github\\NoSQL-Redis\\RedisDB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\CIRUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
