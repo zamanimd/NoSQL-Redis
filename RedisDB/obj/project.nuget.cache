@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "UzxLjxtSADGrLbswPNVzUBL9+zWNUufFHeZ2cF0GIWNJvciMvwJ7VusvGCRq2k/l3DvCBi2Bj45UXzd1fCrTNQ==",
+  "dgSpecHash": "Fgh1EwLQQiXtLE3+QAaLGO6b3Ez8CGLDwXjNIiD+4td7Qlj2vbSzkZgJ7K2oWhXq4dZdpxGcBvS6XJx6oc9SBw==",
   "success": true,
   "projectFilePath": "D:\\Github\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mzamani\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\mzamani\\.nuget\\packages\\servicestack.common.core\\6.2.0\\servicestack.common.core.6.2.0.nupkg.sha512",
-    "C:\\Users\\mzamani\\.nuget\\packages\\servicestack.interfaces.core\\6.2.0\\servicestack.interfaces.core.6.2.0.nupkg.sha512",
-    "C:\\Users\\mzamani\\.nuget\\packages\\servicestack.redis.core\\6.2.0\\servicestack.redis.core.6.2.0.nupkg.sha512",
-    "C:\\Users\\mzamani\\.nuget\\packages\\servicestack.text.core\\6.2.0\\servicestack.text.core.6.2.0.nupkg.sha512",
-    "C:\\Users\\mzamani\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\mzamani\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\mzamani\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\CIRUS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.common.core\\6.2.0\\servicestack.common.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.interfaces.core\\6.2.0\\servicestack.interfaces.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.redis.core\\6.2.0\\servicestack.redis.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.text.core\\6.2.0\\servicestack.text.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
