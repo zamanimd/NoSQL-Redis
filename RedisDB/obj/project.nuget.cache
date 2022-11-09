@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B8cam59jBeIZ7tU4xmHgCrAQIvDNtAYEbhAf7MuCATjsPRBpejoyrz8yDNPKiOcLqfePOhFM8PJTtcXysq6fxQ==",
+  "dgSpecHash": "hI6xBPU9J1ySHai/dfNX80f+L+SwQ9bmvhI2SJSf/3j2Sl9dYMyDB4lMBDKpHWaiOlAxoaf8vNE3/lZdoAq+yg==",
   "success": true,
-  "projectFilePath": "D:\\Github\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
+  "projectFilePath": "D:\\Github-Aryana\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.common.core\\6.2.0\\servicestack.common.core.6.2.0.nupkg.sha512",
