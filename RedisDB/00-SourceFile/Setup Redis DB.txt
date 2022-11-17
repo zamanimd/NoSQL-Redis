@@ -1,0 +1,10 @@
+Docker:
+CMD: docker pull redis
+
+-------------------------------------
+Before run Redis set:
+
+Name: RedisDB
+Port: 6379
+
+Then Run.

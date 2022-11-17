@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "RedisDB/1.0.0": {
         "dependencies": {
+          "ServiceStack.Redis": "6.4.0",
           "ServiceStack.Redis.Core": "6.2.0"
         },
         "runtime": {
@@ -15,24 +16,45 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
-      "ServiceStack.Common.Core/6.2.0": {
+      "ServiceStack.Common/6.4.0": {
         "dependencies": {
-          "ServiceStack.Interfaces.Core": "6.2.0",
-          "ServiceStack.Text.Core": "6.2.0",
+          "ServiceStack.Interfaces": "6.4.0",
+          "ServiceStack.Text": "6.4.0",
           "System.Memory": "4.5.4"
         },
         "runtime": {
           "lib/net6.0/ServiceStack.Common.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.2.0.0"
+            "fileVersion": "6.4.0.0"
           }
         }
       },
-      "ServiceStack.Interfaces.Core/6.2.0": {
+      "ServiceStack.Common.Core/6.2.0": {
+        "dependencies": {
+          "ServiceStack.Interfaces.Core": "6.2.0",
+          "ServiceStack.Text.Core": "6.2.0",
+          "System.Memory": "4.5.4"
+        }
+      },
+      "ServiceStack.Interfaces/6.4.0": {
         "runtime": {
           "lib/net6.0/ServiceStack.Interfaces.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.2.0.0"
+            "fileVersion": "6.4.0.0"
+          }
+        }
+      },
+      "ServiceStack.Interfaces.Core/6.2.0": {},
+      "ServiceStack.Redis/6.4.0": {
+        "dependencies": {
+          "ServiceStack.Common": "6.4.0",
+          "ServiceStack.Interfaces": "6.4.0",
+          "ServiceStack.Text": "6.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Redis.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.4.0.0"
           }
         }
       },
@@ -41,15 +63,9 @@
           "ServiceStack.Common.Core": "6.2.0",
           "ServiceStack.Interfaces.Core": "6.2.0",
           "ServiceStack.Text.Core": "6.2.0"
-        },
-        "runtime": {
-          "lib/net6.0/ServiceStack.Redis.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.2.0.0"
-          }
         }
       },
-      "ServiceStack.Text.Core/6.2.0": {
+      "ServiceStack.Text/6.4.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "System.Diagnostics.DiagnosticSource": "6.0.0",
@@ -58,8 +74,15 @@
         "runtime": {
           "lib/net6.0/ServiceStack.Text.dll": {
             "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.2.0.0"
+            "fileVersion": "6.4.0.0"
           }
+        }
+      },
+      "ServiceStack.Text.Core/6.2.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0",
+          "System.Memory": "4.5.4"
         }
       },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
@@ -84,12 +107,26 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
+    "ServiceStack.Common/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h9oCZtr+LxVwAkx/SltgDNvfiO7x0iGSD+ssV1I/wFqtDespVx4BSIxskc37MngaHfbkqwyW5y9PpHld5gsmeQ==",
+      "path": "servicestack.common/6.4.0",
+      "hashPath": "servicestack.common.6.4.0.nupkg.sha512"
+    },
     "ServiceStack.Common.Core/6.2.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-87sIy7Vsn9Nr4qCzfQfiOPcgWFh6qe6rI1F5jPqCa6xJv8zv/wjTDSxp6LUgvD5RDN4sTkl1r75XpFAdC+zroQ==",
       "path": "servicestack.common.core/6.2.0",
       "hashPath": "servicestack.common.core.6.2.0.nupkg.sha512"
+    },
+    "ServiceStack.Interfaces/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hqtbCwbJGt7mCnEkdXP+8X30IkKpOAlpcQYBoU6501/e1liQbAvDOCNwoJZj77K4Va8k3Kq6c7XfotQ2I/RLKQ==",
+      "path": "servicestack.interfaces/6.4.0",
+      "hashPath": "servicestack.interfaces.6.4.0.nupkg.sha512"
     },
     "ServiceStack.Interfaces.Core/6.2.0": {
       "type": "package",
@@ -98,12 +135,26 @@
       "path": "servicestack.interfaces.core/6.2.0",
       "hashPath": "servicestack.interfaces.core.6.2.0.nupkg.sha512"
     },
+    "ServiceStack.Redis/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D6UvJXDIyCMawjQ7W97JJ136GEghFY2l1X5LUqMfuIAfvuukm530X8VcDfoxkL2fxyaZK2Wn1opVrqk/5c701Q==",
+      "path": "servicestack.redis/6.4.0",
+      "hashPath": "servicestack.redis.6.4.0.nupkg.sha512"
+    },
     "ServiceStack.Redis.Core/6.2.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-EcO9voukQ55lTYogTTIsGV9P0L9csSdvcudYLaIt7csDimerkl0c3pN0rkvnbTuZZoC31k+dKRsZ7/E4wqE2Fw==",
       "path": "servicestack.redis.core/6.2.0",
       "hashPath": "servicestack.redis.core.6.2.0.nupkg.sha512"
+    },
+    "ServiceStack.Text/6.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZB79SHz0o0TtCOsQXDr6aEhvL84BhD++bIjvCnVNC0s4mIZo8XWxHLglBkmC6k+XqiM+h/MwZ8O/+aYU+lNQ3A==",
+      "path": "servicestack.text/6.4.0",
+      "hashPath": "servicestack.text.6.4.0.nupkg.sha512"
     },
     "ServiceStack.Text.Core/6.2.0": {
       "type": "package",

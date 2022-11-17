@@ -1,21 +1,21 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "40o1yTTXBcVpXuwLJq+qGnr58PMv5oCB+yXg26hTmOmHVX8qG+0nLDjFD8c2K09n4hxSmhMW0BRhMmXybYTotQ==",
-=======
-  "dgSpecHash": "hI6xBPU9J1ySHai/dfNX80f+L+SwQ9bmvhI2SJSf/3j2Sl9dYMyDB4lMBDKpHWaiOlAxoaf8vNE3/lZdoAq+yg==",
->>>>>>> 019c7f68084bc580aeb7843607521596059ecd80
+  "dgSpecHash": "7uQq9IicALOz+4xieyBNp1p+Uz3t/uCUP5kMIYMWwORJITtNFAm2M2kM8+uf4EoSHT50QpnYFQUpB2vYMfzlBA==",
   "success": true,
-  "projectFilePath": "D:\\Github-Aryana\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
+  "projectFilePath": "D:\\Github\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.common.core\\6.2.0\\servicestack.common.core.6.2.0.nupkg.sha512",
-    "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.interfaces.core\\6.2.0\\servicestack.interfaces.core.6.2.0.nupkg.sha512",
-    "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.redis.core\\6.2.0\\servicestack.redis.core.6.2.0.nupkg.sha512",
-    "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.text.core\\6.2.0\\servicestack.text.core.6.2.0.nupkg.sha512",
-    "C:\\Users\\Mohammad\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "C:\\Users\\Mohammad\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\Mohammad\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\CIRUS\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.common\\6.4.0\\servicestack.common.6.4.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.common.core\\6.2.0\\servicestack.common.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.interfaces\\6.4.0\\servicestack.interfaces.6.4.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.interfaces.core\\6.2.0\\servicestack.interfaces.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.redis\\6.4.0\\servicestack.redis.6.4.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.redis.core\\6.2.0\\servicestack.redis.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.text\\6.4.0\\servicestack.text.6.4.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\servicestack.text.core\\6.2.0\\servicestack.text.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\CIRUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
