@@ -11,4 +11,8 @@
     <PackageReference Include="ServiceStack.Redis.Core" Version="6.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Document\" />
+  </ItemGroup>
+
 </Project>
