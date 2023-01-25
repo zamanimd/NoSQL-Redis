@@ -8,11 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ServiceStack.Redis.Core" Version="6.2.0" />
+    <Compile Remove="Document\**" />
+    <EmbeddedResource Remove="Document\**" />
+    <None Remove="Document\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Document\" />
+    <PackageReference Include="ServiceStack.Redis" Version="6.4.0" />
+    <PackageReference Include="ServiceStack.Redis.Core" Version="6.2.0" />
   </ItemGroup>
 
 </Project>

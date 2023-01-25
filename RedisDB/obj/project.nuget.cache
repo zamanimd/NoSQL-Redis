@@ -1,17 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "TYxm5lI4q5oaoMkfq2lxjBgZWCkV55+Nzc2gSzvF1TTiJvqTuWbHfteF6q7m2Y4gEQ3/ZPz+SBHX6U684OzL8Q==",
+  "dgSpecHash": "eit/1GA9TQn/GANmLYDPrKZPOWNjEh6uNxWyTk393eMoRGSV9UGjUjOrMaJB1FqZjLpPuS+jwhF374RdaQphIQ==",
   "success": true,
   "projectFilePath": "D:\\Github-Aryana\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mohammad\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.common\\6.4.0\\servicestack.common.6.4.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.common.core\\6.2.0\\servicestack.common.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.interfaces\\6.4.0\\servicestack.interfaces.6.4.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.interfaces.core\\6.2.0\\servicestack.interfaces.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.redis\\6.4.0\\servicestack.redis.6.4.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.redis.core\\6.2.0\\servicestack.redis.core.6.2.0.nupkg.sha512",
+    "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.text\\6.4.0\\servicestack.text.6.4.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\servicestack.text.core\\6.2.0\\servicestack.text.core.6.2.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\Mohammad\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Github-Aryana\\NoSQL-Redis\\RedisDB\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

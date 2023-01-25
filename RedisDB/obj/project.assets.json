@@ -11,6 +11,24 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "ServiceStack.Common/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Interfaces": "6.4.0",
+          "ServiceStack.Text": "6.4.0",
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/net6.0/ServiceStack.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Common.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "ServiceStack.Common.Core/6.2.0": {
         "type": "package",
         "dependencies": {
@@ -29,6 +47,15 @@
           }
         }
       },
+      "ServiceStack.Interfaces/6.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Interfaces.dll": {}
+        }
+      },
       "ServiceStack.Interfaces.Core/6.2.0": {
         "type": "package",
         "compile": {
@@ -38,6 +65,24 @@
         },
         "runtime": {
           "lib/net6.0/ServiceStack.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ServiceStack.Redis/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "6.4.0",
+          "ServiceStack.Interfaces": "6.4.0",
+          "ServiceStack.Text": "6.4.0"
+        },
+        "compile": {
+          "lib/net6.0/ServiceStack.Redis.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Redis.dll": {
             "related": ".xml"
           }
         }
@@ -56,6 +101,24 @@
         },
         "runtime": {
           "lib/net6.0/ServiceStack.Redis.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ServiceStack.Text/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0",
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/net6.0/ServiceStack.Text.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ServiceStack.Text.dll": {
             "related": ".xml"
           }
         }
@@ -194,6 +257,23 @@
         "version.txt"
       ]
     },
+    "ServiceStack.Common/6.4.0": {
+      "sha512": "h9oCZtr+LxVwAkx/SltgDNvfiO7x0iGSD+ssV1I/wFqtDespVx4BSIxskc37MngaHfbkqwyW5y9PpHld5gsmeQ==",
+      "type": "package",
+      "path": "servicestack.common/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/ServiceStack.Common.dll",
+        "lib/net472/ServiceStack.Common.xml",
+        "lib/net6.0/ServiceStack.Common.dll",
+        "lib/net6.0/ServiceStack.Common.xml",
+        "lib/netstandard2.0/ServiceStack.Common.dll",
+        "lib/netstandard2.0/ServiceStack.Common.xml",
+        "servicestack.common.6.4.0.nupkg.sha512",
+        "servicestack.common.nuspec"
+      ]
+    },
     "ServiceStack.Common.Core/6.2.0": {
       "sha512": "87sIy7Vsn9Nr4qCzfQfiOPcgWFh6qe6rI1F5jPqCa6xJv8zv/wjTDSxp6LUgvD5RDN4sTkl1r75XpFAdC+zroQ==",
       "type": "package",
@@ -207,6 +287,20 @@
         "lib/netstandard2.0/ServiceStack.Common.xml",
         "servicestack.common.core.6.2.0.nupkg.sha512",
         "servicestack.common.core.nuspec"
+      ]
+    },
+    "ServiceStack.Interfaces/6.4.0": {
+      "sha512": "hqtbCwbJGt7mCnEkdXP+8X30IkKpOAlpcQYBoU6501/e1liQbAvDOCNwoJZj77K4Va8k3Kq6c7XfotQ2I/RLKQ==",
+      "type": "package",
+      "path": "servicestack.interfaces/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/ServiceStack.Interfaces.dll",
+        "lib/net6.0/ServiceStack.Interfaces.dll",
+        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
+        "servicestack.interfaces.6.4.0.nupkg.sha512",
+        "servicestack.interfaces.nuspec"
       ]
     },
     "ServiceStack.Interfaces.Core/6.2.0": {
@@ -224,6 +318,25 @@
         "servicestack.interfaces.core.nuspec"
       ]
     },
+    "ServiceStack.Redis/6.4.0": {
+      "sha512": "D6UvJXDIyCMawjQ7W97JJ136GEghFY2l1X5LUqMfuIAfvuukm530X8VcDfoxkL2fxyaZK2Wn1opVrqk/5c701Q==",
+      "type": "package",
+      "path": "servicestack.redis/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/ServiceStack.Redis.dll",
+        "lib/net472/ServiceStack.Redis.xml",
+        "lib/net6.0/ServiceStack.Redis.dll",
+        "lib/net6.0/ServiceStack.Redis.xml",
+        "lib/netstandard2.0/ServiceStack.Redis.dll",
+        "lib/netstandard2.0/ServiceStack.Redis.xml",
+        "lib/netstandard2.1/ServiceStack.Redis.dll",
+        "lib/netstandard2.1/ServiceStack.Redis.xml",
+        "servicestack.redis.6.4.0.nupkg.sha512",
+        "servicestack.redis.nuspec"
+      ]
+    },
     "ServiceStack.Redis.Core/6.2.0": {
       "sha512": "EcO9voukQ55lTYogTTIsGV9P0L9csSdvcudYLaIt7csDimerkl0c3pN0rkvnbTuZZoC31k+dKRsZ7/E4wqE2Fw==",
       "type": "package",
@@ -237,6 +350,23 @@
         "lib/netstandard2.0/ServiceStack.Redis.xml",
         "servicestack.redis.core.6.2.0.nupkg.sha512",
         "servicestack.redis.core.nuspec"
+      ]
+    },
+    "ServiceStack.Text/6.4.0": {
+      "sha512": "ZB79SHz0o0TtCOsQXDr6aEhvL84BhD++bIjvCnVNC0s4mIZo8XWxHLglBkmC6k+XqiM+h/MwZ8O/+aYU+lNQ3A==",
+      "type": "package",
+      "path": "servicestack.text/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net472/ServiceStack.Text.dll",
+        "lib/net472/ServiceStack.Text.xml",
+        "lib/net6.0/ServiceStack.Text.dll",
+        "lib/net6.0/ServiceStack.Text.xml",
+        "lib/netstandard2.0/ServiceStack.Text.dll",
+        "lib/netstandard2.0/ServiceStack.Text.xml",
+        "servicestack.text.6.4.0.nupkg.sha512",
+        "servicestack.text.nuspec"
       ]
     },
     "ServiceStack.Text.Core/6.2.0": {
@@ -330,27 +460,28 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "ServiceStack.Redis >= 6.4.0",
       "ServiceStack.Redis.Core >= 6.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mohammad\\.nuget\\packages\\": {},
+    "C:\\Users\\CIRUS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github-Aryana\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
+      "projectUniqueName": "D:\\Github\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
       "projectName": "RedisDB",
-      "projectPath": "D:\\Github-Aryana\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
-      "packagesPath": "C:\\Users\\Mohammad\\.nuget\\packages\\",
-      "outputPath": "D:\\Github-Aryana\\NoSQL-Redis\\RedisDB\\obj\\",
+      "projectPath": "D:\\Github\\NoSQL-Redis\\RedisDB\\RedisDB.csproj",
+      "packagesPath": "C:\\Users\\CIRUS\\.nuget\\packages\\",
+      "outputPath": "D:\\Github\\NoSQL-Redis\\RedisDB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mohammad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CIRUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -378,6 +509,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "ServiceStack.Redis": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
           "ServiceStack.Redis.Core": {
             "target": "Package",
             "version": "[6.2.0, )"

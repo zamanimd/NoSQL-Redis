@@ -19,3 +19,5 @@ using (var client = new RedisClient("localhost", 6379))
 
 Console.WriteLine("Added item with key: " + myID);
 Console.WriteLine("Received data from redis: " + myData);
+
+Console.ReadKey();
